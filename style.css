@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ebebf3;
+	font-family: "Open Sans", sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.card-container {
+	background-color: white;
+	border-radius: 0.5em;
+	padding: 2.5em 1.875em;
+	max-width: 310px;
+	box-shadow: 5px 5px 10px 5px #8c919c;
+}
+
+.card-container h1 {
+	color: #252a3b;
+	font-size: 1.5rem;
+	margin-top: auto;
+}
+
+.card-container p {
+	color: #252a3b;
+	margin-bottom: 1.25em;
+	margin-top: auto;
+}
+
+img {
+	width: 20%;
+}
+
+form {
+	display: flex;
+}
+
+input[type="email"] {
+	border-left: 0.0625em solid #b4b4bc;
+	border-top: 0.0625em solid #b4b4bc;
+	border-bottom: 0.0625em solid #b4b4bc;
+	border-right: none;
+	padding: 0.9375em;
+	color: #7c7c89;
+	border-radius: 0.25em 0 0 0.25em;
+}
+
+input[type="button"] {
+	background-color: #fbad39;
+	color: white;
+	padding: 0.9375em;
+	border: none;
+	border-radius: 0 0.25em 0.25em 0;
+	font-weight: 600;
+	cursor: pointer;
+}
